@@ -1,0 +1,515 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    position: relative;
+    padding-top: 130px;
+}
+@media screen and (max-width:576px){
+    p {
+    font-size: 10px;
+    color: #969295;
+} 
+}
+@media screen and (min-width:576px) and (max-width:991px) {
+    p {
+    font-size: 11px;
+    color: #969295;
+}
+}
+@media screen and (max-width:768px) {
+body {
+    padding-top:  60px;
+    }
+    
+}
+p {
+    font-size: 14px;
+    color: #969295;
+}
+
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(0,0,0,0);
+}
+/*--------------------------
+         navigation
+--------------------------*/
+
+.nav-link {
+    font-family: mr-eaves-modern, sans-serif;
+    font-size:18px;
+    letter-spacing: 0.1em;
+}
+.navigation{
+    border-bottom: 1.5px solid #E2C9DE;
+}
+
+span.fab {
+    color: #969295;    
+    }
+
+span.fab:hover{
+   color: #575759; 
+}
+
+
+@media screen and (min-width:576px) and (max-width:991px) {
+.nav-item {
+    margin: 15px 20px;
+}   
+.navbar-nav {
+    margin-left: 30px;
+    margin-top:20px;
+}
+
+.icon {
+    position: absolute;
+    top: 25px;
+    right: 70px;
+    z-index: 1;
+}
+
+.fab {
+    margin: 20px;
+}
+
+}
+@media screen and (min-width:992px){
+    .nav-item {
+    margin: 30px 40px;
+} 
+    .navbar-nav {
+    margin-left: 120px;
+}
+.icon {
+    position: absolute;
+    top: 25px;
+    right: 90px;
+    z-index: 1;
+}
+.fab {
+    margin: 20px;
+}
+
+}
+
+/*---------------------------
+      header main top
+---------------------------*/
+
+/*　メディアクエリ　*/
+@media screen and (max-width:576px) { 
+     .maintop {
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+    .header_title{
+    font-family: mr-eaves-modern, sans-serif;
+    font-size:17px;
+    color: #969295;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    text-align: center;
+    letter-spacing: 0.17em;
+}  
+    .red {
+    color: #D30D0D;
+    font-size: 23px;
+    opacity: 0.5;
+}
+    .main_title {
+    font-size: 35px
+} 
+    
+    header {
+    margin: 30px 0 0;
+}
+}
+@media screen and (min-width:576px) and (max-width:991px) {
+     .maintop {
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+   .header_title{
+    font-family: mr-eaves-modern, sans-serif;
+    font-size: 22px;
+    color: #969295;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    text-align: center;
+    letter-spacing: 0.17em;
+}
+    .red {
+    color: #D30D0D;
+    font-size: 40px;
+    opacity: 0.5;
+}
+.main_title {
+    font-size: 45px
+}
+    header {
+    margin: 30px 0 100px;
+}
+}
+
+@media screen and (min-width:992px) {
+     .maintop {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+    .header_title{
+    font-family: mr-eaves-modern, sans-serif;
+    font-size:33px;
+    color: #969295;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    text-align: center;
+    letter-spacing: 0.17em;
+}
+    
+    .red {
+    color: #D30D0D;
+    font-size: 55px;
+    opacity: 0.5;
+}
+.main_title {
+    font-size: 65px
+}
+   
+    header {
+    margin: 50px 0 170px;
+}
+}
+
+/*---------------------------
+       hair portfoli
+---------------------------*/
+h2 {
+    display: inline-block;
+    border-bottom: solid 3px #E2C9DE;
+    color: #969295;
+    padding-bottom: 10px;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.17em;
+    font-size: 32px;
+    margin-bottom: px;
+}
+
+h5 {
+    display: inline-block;
+    color: #969295;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.17em;
+}
+
+.contenthair {
+    margin-top: 20px;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.subtitle {
+    margin-top: 20px;
+    border: 1px solid #E2C9DE;
+    background-color: #E2C9DE;
+    padding:7px;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+.bold {
+    font-weight: bold;
+    font-size: 15px;
+}
+.hair1 {
+    padding-left: 50px;
+}
+.pb {
+    border: 1px solid #E2C9DE;
+    padding: 10px;
+}
+.pbh {
+    border: 1px solid #E2C9DE;
+    padding: 10px;
+    background-image:url(hair/153761.png);
+    background-repeat:  no-repeat;
+    background-position: right 7% bottom 10%; 
+    background-size:18%;
+}
+.green {
+    color: green;
+}
+
+.bejyu {
+    color: #3F3118;
+}
+
+.red {
+    color: red;
+    font-size: 15px;
+}
+
+
+/*---------------------------
+            work
+---------------------------
+.container {
+   text-align: center;
+}
+
+.work_content {
+    position: relative;
+}
+
+.col-9 {
+    margin: 0 20px;
+}
+dl {
+    position: absolute;
+	top: 0;
+	margin: 0;
+	color: #fff;
+	background: rgba(205,92,92,.9);
+}
+.work_title{
+    color: #514F4F;
+}
+.work_hover {
+  transition: all 0.6s ease 0s;
+}
+.work_hover:hover {
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+}
+
+.work_content{
+  margin-top: 20px;
+  text-align: left;
+}
+
+a .btn {
+    color: #969295;
+    margin-top: 10px;
+    text-align: right;
+}
+
+a.more{
+    color: #969295;
+    margin-top:15px;
+    margin-bottom: 40px;
+    border: 1px solid #E2C9DE;
+    border-radius: 3px;
+    float: right;
+}*/
+
+/* メディアクエリ
+@media screen and (max-width:576px) {
+    .h2_title {
+    display: inline-block;
+    border-bottom: solid 2px #E2C9DE;
+    color: #969295;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.17em;
+    font-size: 20px;
+    margin-top: 15px;
+}
+    .work_content{
+  margin-top: 20px;
+  text-align: left;
+  font-size: 12px;
+}
+}
+
+@media screen and (min-width:576px) and ( max-width:991px){
+    .h2_title {
+    display: inline-block;
+    border-bottom: solid 3px #E2C9DE;
+    color: #969295;
+    padding-bottom: 5px;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.17em;
+    font-size: 28px;
+}
+}
+
+@media screen and (min-width:992px) {
+    .h2_title {
+    display: inline-block;
+    border-bottom: solid 3px #E2C9DE;
+    color: #969295;
+    padding-bottom: 10px;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.17em;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+}*/
+
+/*---------------------------
+            ABOUT
+---------------------------
+.about-wrapper {
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+
+.bold {
+    font-weight: bold;
+     font-size: 16px;
+}*/
+
+/* メディアクエリ 
+@media screen and (max-width:576px) {
+    .h2_title1 {
+    display: inline-block;
+    border-bottom: solid 2px #E2C9DE;
+    color: #969295;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.17em;
+    font-size: 22px;
+}
+.about-wrapper {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+    p.content {
+    padding:30x 0;
+    text-align: left;
+    margin-left: 30px;
+    font-size: 12px;
+}
+}
+
+@media screen and (min-width:576px) and ( max-width:991px){
+    .h2_title1 {
+    display: inline-block;
+    border-bottom: solid 3px #E2C9DE;
+    color: #969295;
+    padding-bottom: 5px;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.17em;
+    font-size: 28px;
+}
+.about-wrapper {
+    padding-top: 150px;
+    padding-bottom: 120px;
+}
+    .content {
+    padding:30x 0;
+    text-align: left;
+    margin-left: 50px;
+}
+}
+
+@media screen and (min-width:992px) {
+    .h2_title1 {
+    display: inline-block;
+    border-bottom: solid 3px #E2C9DE;
+    color: #969295;
+    padding-bottom: 10px;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.17em;
+    font-size: 32px;
+}
+    .content {
+    padding:30x 0;
+    text-align: left;
+    margin-left: 100px;
+}
+}*/
+/*---------------------------
+           SKIL
+---------------------------*/
+
+.about_content {
+    margin-top: 50px;
+}
+
+.star-rating {
+  position: relative;
+  width: 5em;
+  height: 1em;
+  font-size: 25px;
+
+}
+.star-rating-front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  color: #FCFC7E;
+}
+.star-rating-back {
+  color: #ccc;
+}
+
+img {
+     width:100%;
+}
+
+.skil_content {
+    text-align: left;
+    margin-top: 15px;
+}
+
+@media screen and (max-width:576px){
+    .skil_content,.p_title {
+        font-size: 12px;
+    }
+}
+/*---------------------------
+         Contact
+---------------------------*/
+
+.contact_wrapper {
+    margin-top: 200px;
+}
+
+
+/*---------------------------
+          footer
+---------------------------*/
+
+footer {
+    background-color: #9E789C;
+    opacity: 0.5;
+    margin-top: 130px;
+}
+
+.nav-link {
+    color: #FFF;
+}
