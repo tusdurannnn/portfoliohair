@@ -7,7 +7,7 @@ body {
 }
 @media screen and (max-width:576px){
     p {
-    font-size: 10px;
+    font-size: 9px;
     color: #969295;
 } 
 }
@@ -255,6 +255,7 @@ h5 {
 .pb {
     border: 1px solid #E2C9DE;
     padding: 10px;
+    margin: 0 15px;
 }
 .pbh {
     border: 1px solid #E2C9DE;
@@ -277,7 +278,36 @@ h5 {
     font-size: 15px;
 }
 
-
+/*　メディアクエリ　*/
+@media screen and (max-width:576px) {
+    .pb,.pbh,.pbhh {
+        font-size: 11px;
+}
+    .bold {
+    font-weight: bold;
+    font-size: 12px;
+}  
+    .red {
+    color: red;
+    font-size: 11px;
+}
+}
+@media screen and (min-width:576px) and (max-width:991px) {
+    .pb,.pbh,.pbhh {
+        font-size: 13px;
+}
+    .bold {
+    font-weight: bold;
+    font-size: 14px;
+}   
+    .red {
+    color: red;
+    font-size: 13px;
+}
+}
+@media screen and (min-width:992px){
+    
+}
 /*---------------------------
             work
 ---------------------------
