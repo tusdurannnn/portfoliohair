@@ -3,7 +3,7 @@
 
 body {
     position: relative;
-    padding-top: 130px;
+    padding-top: 150px;
 }
 @media screen and (max-width:576px){
     p {
@@ -27,6 +27,11 @@ p {
     font-size: 14px;
     color: #969295;
 }
+
+img {
+     width:100%;
+}
+
 
 
 .navbar-light .navbar-toggler {
@@ -216,7 +221,6 @@ h2 {
     font-weight: normal;
     letter-spacing: 0.17em;
     font-size: 32px;
-    margin-bottom: px;
 }
 
 h5 {
@@ -254,12 +258,10 @@ h5 {
 }
 .pb {
     border: 1px solid #E2C9DE;
-    padding: 10px;
+    padding: 20px;
     margin: 0 15px;
 }
 .pbh {
-    border: 1px solid #E2C9DE;
-    padding: 10px;
     background-image:url(hair/153761.png);
     background-repeat:  no-repeat;
     background-position: right 7% bottom 10%; 
@@ -276,6 +278,11 @@ h5 {
 .red {
     color: red;
     font-size: 15px;
+}
+
+.gaiyou{
+     border: 1px solid #E2C9DE;
+     padding: 20px;
 }
 
 /*　メディアクエリ　*/
@@ -308,227 +315,6 @@ h5 {
 @media screen and (min-width:992px){
     
 }
-/*---------------------------
-            work
----------------------------
-.container {
-   text-align: center;
-}
-
-.work_content {
-    position: relative;
-}
-
-.col-9 {
-    margin: 0 20px;
-}
-dl {
-    position: absolute;
-	top: 0;
-	margin: 0;
-	color: #fff;
-	background: rgba(205,92,92,.9);
-}
-.work_title{
-    color: #514F4F;
-}
-.work_hover {
-  transition: all 0.6s ease 0s;
-}
-.work_hover:hover {
-  cursor: pointer;
-  transform: scale(1.1, 1.1);
-}
-
-.work_content{
-  margin-top: 20px;
-  text-align: left;
-}
-
-a .btn {
-    color: #969295;
-    margin-top: 10px;
-    text-align: right;
-}
-
-a.more{
-    color: #969295;
-    margin-top:15px;
-    margin-bottom: 40px;
-    border: 1px solid #E2C9DE;
-    border-radius: 3px;
-    float: right;
-}*/
-
-/* メディアクエリ
-@media screen and (max-width:576px) {
-    .h2_title {
-    display: inline-block;
-    border-bottom: solid 2px #E2C9DE;
-    color: #969295;
-    font-family: mr-eaves-modern, sans-serif;
-    font-weight: normal;
-    letter-spacing: 0.17em;
-    font-size: 20px;
-    margin-top: 15px;
-}
-    .work_content{
-  margin-top: 20px;
-  text-align: left;
-  font-size: 12px;
-}
-}
-
-@media screen and (min-width:576px) and ( max-width:991px){
-    .h2_title {
-    display: inline-block;
-    border-bottom: solid 3px #E2C9DE;
-    color: #969295;
-    padding-bottom: 5px;
-    font-family: mr-eaves-modern, sans-serif;
-    font-weight: normal;
-    letter-spacing: 0.17em;
-    font-size: 28px;
-}
-}
-
-@media screen and (min-width:992px) {
-    .h2_title {
-    display: inline-block;
-    border-bottom: solid 3px #E2C9DE;
-    color: #969295;
-    padding-bottom: 10px;
-    font-family: mr-eaves-modern, sans-serif;
-    font-weight: normal;
-    letter-spacing: 0.17em;
-    font-size: 32px;
-    margin-bottom: 50px;
-}
-}*/
-
-/*---------------------------
-            ABOUT
----------------------------
-.about-wrapper {
-    padding-top: 170px;
-    padding-bottom: 170px;
-}
-
-.bold {
-    font-weight: bold;
-     font-size: 16px;
-}*/
-
-/* メディアクエリ 
-@media screen and (max-width:576px) {
-    .h2_title1 {
-    display: inline-block;
-    border-bottom: solid 2px #E2C9DE;
-    color: #969295;
-    font-family: mr-eaves-modern, sans-serif;
-    font-weight: normal;
-    letter-spacing: 0.17em;
-    font-size: 22px;
-}
-.about-wrapper {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-    p.content {
-    padding:30x 0;
-    text-align: left;
-    margin-left: 30px;
-    font-size: 12px;
-}
-}
-
-@media screen and (min-width:576px) and ( max-width:991px){
-    .h2_title1 {
-    display: inline-block;
-    border-bottom: solid 3px #E2C9DE;
-    color: #969295;
-    padding-bottom: 5px;
-    font-family: mr-eaves-modern, sans-serif;
-    font-weight: normal;
-    letter-spacing: 0.17em;
-    font-size: 28px;
-}
-.about-wrapper {
-    padding-top: 150px;
-    padding-bottom: 120px;
-}
-    .content {
-    padding:30x 0;
-    text-align: left;
-    margin-left: 50px;
-}
-}
-
-@media screen and (min-width:992px) {
-    .h2_title1 {
-    display: inline-block;
-    border-bottom: solid 3px #E2C9DE;
-    color: #969295;
-    padding-bottom: 10px;
-    font-family: mr-eaves-modern, sans-serif;
-    font-weight: normal;
-    letter-spacing: 0.17em;
-    font-size: 32px;
-}
-    .content {
-    padding:30x 0;
-    text-align: left;
-    margin-left: 100px;
-}
-}*/
-/*---------------------------
-           SKIL
----------------------------*/
-
-.about_content {
-    margin-top: 50px;
-}
-
-.star-rating {
-  position: relative;
-  width: 5em;
-  height: 1em;
-  font-size: 25px;
-
-}
-.star-rating-front {
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  color: #FCFC7E;
-}
-.star-rating-back {
-  color: #ccc;
-}
-
-img {
-     width:100%;
-}
-
-.skil_content {
-    text-align: left;
-    margin-top: 15px;
-}
-
-@media screen and (max-width:576px){
-    .skil_content,.p_title {
-        font-size: 12px;
-    }
-}
-/*---------------------------
-         Contact
----------------------------*/
-
-.contact_wrapper {
-    margin-top: 200px;
-}
-
 
 /*---------------------------
           footer
