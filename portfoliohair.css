@@ -223,6 +223,13 @@ h2 {
     font-size: 32px;
 }
 
+.h5 {
+    display: inline-block;
+    color: #969295;
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.17em;
+}
 h5 {
     display: inline-block;
     color: #969295;
@@ -280,10 +287,7 @@ h5 {
     font-size: 15px;
 }
 
-.gaiyou{
-     border: 1px solid #E2C9DE;
-     padding: 20px;
-}
+
 
 /*　メディアクエリ　*/
 @media screen and (max-width:576px) {
