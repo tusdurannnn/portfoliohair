@@ -295,6 +295,21 @@ h5 {
     background: linear-gradient(transparent 70%, #f9fbce 70%);
 }
 
+a.site {
+    text-decoration: none;
+    background-color:  #E2C9DE;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+a.site:hover {
+    color: #fff;
+    background-color:#f1deee;
+    
+}
 
 /*　メディアクエリ　*/
 @media screen and (max-width:576px) {
